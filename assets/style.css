@@ -1,0 +1,63 @@
+*, *::before, *::after {
+     box-sizing: border-box; 
+     margin: 0; 
+     padding: 0; 
+    }
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color: bisque;
+}
+header {
+
+    /* width: 100%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header, footer {
+    background-color: forestgreen;
+    width: 100%;
+}
+p {
+    text-align: center;
+}
+h1, h2 {
+
+    text-align: center;
+    margin: 15px auto;
+}
+ul {
+    float: right;
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: bisque;
+    /* padding-bottom: 15px; */
+    /* float: right; */
+}
+main {
+    margin-top: 200px;
+ 
+}
+#imageContainer {
+    width: 100%;
+    display: flex;
+
+}
+img {
+justify-content: center;
+align-items: center;
+    width: 600px;
+    height: 450px;
+    margin: 30px auto;
+} 
+.button {
+    margin: 20px auto;
+    display: block;
+    height: 30px;
+    width: 80px;
+    background-color: forestgreen;
+    color: bisque;
+}
