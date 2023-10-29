@@ -53,6 +53,11 @@ align-items: center;
     height: 450px;
     margin: 30px auto;
 } 
+#contact-form {
+    width: 50%;
+    margin: 20px auto;
+    border: 3px solid forestgreen;
+}
 .button {
     margin: 20px auto;
     display: block;
